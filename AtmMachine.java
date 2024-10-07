@@ -28,4 +28,41 @@ public class AtmMachine {
         System.out.println("Welcome to your account");
         // Proceed to account type selection
     }
+
+    private static void selectAccountType(Scanner scanner) {
+        System.out.println("Choose account type:");
+        System.out.println("1. Checking Account");
+        System.out.println("2. Saving Account");
+        System.out.println("3. Exit");
+        int choice = scanner.nextInt();
+        switch (choice) {
+            case 1:
+                manageCheckingAccount(scanner);
+                break;
+            case 2:
+                manageSavingAccount(scanner);
+                break;
+            case 3:
+                System.out.println("Exiting... Thank you for using our ATM service!");
+                System.exit(0);
+                break;
+            default:
+                System.out.println("Invalid choice, please enter a valid option.");
+                selectAccountType(scanner);
+        }
+    }    
+
+    private static void manageCheckingAccount(Scanner scanner) {
+        System.out.println("Checking Account Operations:");
+        System.out.println("1. View Balance");
+        System.out.println("2. Deposit Funds");
+        System.out.println("3. Withdraw Funds");
+        System.out.println("4. Exit");
+        int operation = scanner.nextInt();
+        // Implement operations based on user choice
+    }
+    
+    private static void manageSavingAccount(Scanner scanner) {
+        // Similar structure to manageCheckingAccount
+    }
 }
