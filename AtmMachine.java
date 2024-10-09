@@ -50,7 +50,7 @@ public class AtmMachine {
                     manageSavingAccount(scanner);
                     break;
                 case 3:
-                    System.out.println("Exiting... Thank you for using our ATM service!");
+                    System.out.println("Thank you for using our ATM service!");
                     System.exit(0);
                     break;
                 default:
