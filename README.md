@@ -1,5 +1,7 @@
 # ATM Machine Simulator
 
+![ATM](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBpI60rNEqZGIAu7e6Rt3yOK9hQSp5JR0M-g&s)
+
 This is a simple ATM machine simulator implemented in Java. It allows users to simulate common ATM operations such as account login, account type selection, balance inquiry, deposit, and withdrawal. The simulator is designed to mimic the basic functionality of an ATM machine, providing a user-friendly interface for users to interact with.
 
 **Features:**
